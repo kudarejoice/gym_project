@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="" type="" href="/index.html"> -->
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Personal Training</title>
+<style>
+*{
+    color: black;
+}
+nav{
+    background-color: rgb(70, 66, 66);
+    color:black;
+    opacity: 50;
+}
+.nav-item{
+    color: rgba(59, 55, 56, 0.671);
+    display:flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    min-height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(217, 221, 223);
+}
+.container{
+    width: 100%;
+    max-width:fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/wade-box.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    object-fit: cover;
+    text-decoration: none;
+    color:rgb(217, 221, 223)
+}
+.left a{
+    text-decoration: none;
+    color:rgb(159, 159, 197)
+}
+.right{
+    width: 35%;
+    min-height: 350px;
+    background-color: rgb(99, 107, 143);
+    border-radius: 8px;
+    padding: 55px;
+    margin-left: -150px;
+}
+.header{
+    color: white;
+    font-weight: lighter;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Roboto-sans';
+    color: white;
+    line-height: 30px;
+}
+.right a{
+    background-color: rgb(224, 221, 221);
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    padding: 15px 30px;
+
+}
+.left-2{
+    width: 50%;
+    min-height: 350px;
+    background-color:rgb(90, 89, 89);
+    border-radius: 8px;
+    padding: 65px;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: -70px;
+}
+</style>
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav id="nav" class="navbar navbar-expand-xl|lg|md|sm sticky-top navbar-dark opacity-50 text-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/pages/index.html">Arnelle's Gym</a>
+            <!-- links -->
+            <div data-tor="hover:opacity(60%)">
+                <ul class="flex-row navbar-nav justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/personal.html">Personal Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </nav>
+    <!-- Main Section -->
+    <section class="main">
+        <div class="container">
+            <div class="left">Photo by <a href="https://unsplash.com/@wadeaustinellis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wade Austin Ellis</a> on <a href="https://unsplash.com/s/photos/personal-training?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+            <div class="right">
+                <div class="content">
+                    <h1 class="header">Looking For A Trainer?</h1>
+                    <p class="text">We have a male and female trainers available. Whether you're trying to just become healthy or you're trying to improve in a specific area. Our trainers provide above and beyond support and make sure you stay on track to reaching your goals.</p>
+                    <a href="/pages/contact.html" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="right-2"></div>
+            <div class="left-2">
+                <div class="content">
+                    <h1 class="header">The Different Types Of Personal Trainers We Have?</h1>
+                    <p class="text">
+                        <ul>
+                            <li class="list-item">Lifestyle Trainers</li>
+                            <li class="list-item">Fitness Trainers</li>
+                            <li class="list-item">Body Building Trainers</li>
+                            <li class="list-item">Yoga Trainers</li>
+                            <li class="list-item">Session Trainers</li>
+                            <p>If you want to invite people to train with you. Otherwise it's a max of 2 people per trainer.</p>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+<section id="footer">
+    <div class="footer">
+        <p class="text-center text-capitalize">&copy;2022 Kudakwashe Ndandarika</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

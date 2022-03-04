@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Arnelle's Gym</title>
+<style>
+nav{
+    background-color: rgb(7, 34, 110);
+    color:rgb(10, 10, 10);
+}
+.nav-item{
+    color: rgb(rgba(116, 78, 88, 0.671));
+    display:flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+/* #intro{
+    background-image: url('/images/bruce.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+} */
+.bg{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+.carousel-caption{
+    top: 50%;
+    font-size: 84px;
+    font-family: "open-sans";
+    color: white;
+    align-items: center;
+}
+#home{
+    margin: 0px;
+    padding: 0px;
+}
+#gym{
+    padding: 30px 0px;
+}
+.title h1{
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+.title{
+    text-align: center;
+    padding: 25px 0px;
+}
+.text{
+    text-align: center;
+}
+title p{
+    font-size: 18px;
+}
+.card-body{
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.1)
+}
+.card{
+    margin: 20px 10px;
+
+    width: 100%;
+}
+.card-body a:hover{
+    color: rgb(82, 88, 121);
+}
+.coach{
+    height: 450px;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<!-- navbar section -->
+    <nav id="nav" class="navbar navbar-expand-xl|lg|md|sm navbar-dark sticky-top opacity-50 text-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/pages/index.html">Arnelle's Gym</a>
+            <!-- links -->
+            <div data-tor="hover:opacity(60%)">
+                <ul class="flex-row navbar-nav justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/personal.html">Personal Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Home Page -->
+<div id="intro" class="intro shadow-lg">
+    <div class="container d-flex align-items-center justify-content-center text-center">
+        <!-- background image and title -->
+        <!-- <img class="bg-image obj-fit-cover" src="/images/josh.jpg" alt="Two women hi-fiving while working out."> -->
+        <h4 style="font-family: 'Helvetica Neue'" class="carousel-caption">
+            Welcome to Arnelle's Gym!
+        </h4>
+    </div>
+</div>
+
+
+
+<!-- card section -->
+<section id="home">
+    <div id="container-fluid gym">
+        <div class="title">
+            <h1 class="title">The Gym For Everyone!</h1>
+            <p class="text">No matter how fit you are, or what you're best at. We have what you are looking for. Whether you're serious or just looking for fun, maybe both!</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="image">
+                        <img src="/images/yoga-bruce.jpg" class="card-img-top">Photo by <a href="https://unsplash.com/@brucemars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">bruce mars</a> on <a href="https://unsplash.com/s/photos/gym-activites?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Studio</h5>
+                            <p class="card-text">The Yoga Studio is always open unless there's a class or private session.</p>
+                            <a href="#">Check It Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="image">
+                        <img src="/images/logan-box.jpg" class="card-img-top coach">Photo by <a href="https://unsplash.com/@lgnwvr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">LOGAN WEAVER</a> on <a href="https://unsplash.com/s/photos/sport?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Coaching</h5>
+                            <p class="card-text">We have coaching sessions available for various activities.</p>
+                            <a href="/pages/personal.html">Find A Coach</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="image">
+                        <img src="/images/april.jpg" class="card-img-top">Photo by <a href="https://unsplash.com/@aprillaugh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">April Laugh</a> on <a href="https://unsplash.com/s/photos/gym?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Gym Buddy</h5>
+                            <p class="card-text">Bring a partner and recieve extra benefits and a discount on membership.</p>
+                            <a href="#">Discounts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<section id="footer">
+    <div class="footer">
+        <p class="text-center text-capitalize">&copy;2022 Kudakwashe Ndandarika</p>
+    </div>
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

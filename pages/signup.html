@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Sign Up</title>
+<style>
+    .nav-item{
+    display:flex;
+    justify-content: flex-end;
+    padding: 5px;
+    }
+    .navbar-brand{
+        color: white;
+    }
+    .text-dark{
+        color: white;
+    }
+    .card-img{
+    filter: blur(4px);
+    -webkit-filter: blur(4px); 
+    }
+    .btn{
+        height: 30px;
+        width: 47%;
+        padding: 5px;
+        align-items: center;
+        /* margin-right: 5px; */
+        margin-left: 18px;
+        /* margin: 10px */
+    }
+    .fixed-bottom{
+        display:flex;
+        justify-content:center;
+        color: rgb(221, 142, 155);
+    }
+</style>
+</head>
+<body>
+
+    <nav id="nav" class="navbar navbar-expand-xl|lg|md|sm navbar-dark bg-dark sticky-top opacity-50 text-dark">
+        <div class="container">
+            <a class="navbar-brand text-secondary" href="/pages/index.html">Arnelle's Gym</a>
+            <!-- links -->
+            <div data-tor="hover:opacity(60%)">
+                <ul class="flex-row navbar-nav text-dark justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/personal.html">Personal Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/signup.html">Sign Up</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sign Up Section -->
+    <div class="card">
+        <div class="card-img">
+            <img src="/images/mars-yoga.jpg" alt="Woman Lifting weights outside a warehouse gym." class="card-img">
+        </div>
+        <div class="row">
+            <div class="card-img-overlay col-lg-6">
+                <form action="bg-form card-img-overlay">
+                    <h1 class="card-title fw-bold display-2">Sign Up</h1>
+                    <p class="card-text fs-6">Enter Your First and Last Name</p>
+                    <!-- First and Last Name -->
+                    <div class="form-floating">
+                        <input class="form-control" type="name" id="name" placeholder="Please Type Yoour First and Last Name">
+                        <label for="name" class="card-text text-secondary">First and Last Name</label>
+                    </div>
+                    <!-- email -->
+                    <p class="fs-6">Enter Your Email</p>
+                    <div class="form-floating">
+                        <input class="form-control" type="email" id="email-address" placeholder="Please Type Your Email">
+                        <label for="email-address" class="card-text text-secondary">Email</label>
+                    </div>
+                    <!--  creat Password -->
+                    <p class="card-text fs-6">Create Your Password</p>
+                    <!-- password -->
+                    <div class="form-floating">
+                        <input class="form-control" type="password" id="password" placeholder="Please Type Your Password">
+                        <label for="password" class="card-text text-secondary">Password</label>
+                    </div>
+                    <!-- button -->
+                    <button class="btn btn-light top-50 btn-xs card-img-overlay">Sign Up!</button>
+                    <!-- link for sign in -->
+                    <div class="my-3 top-50 card-img-overlay">
+                        Do You Have An Account? <a href="/pages/signup.html" class="fw-bold text-info">Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!-- footer -->
+<section id="card-footer">
+    <div class="card-img-overlay">
+        <footer class="fixed-bottom">&copy;2022 Kudakwashe Ndandarika</footer>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
